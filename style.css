@@ -1,0 +1,151 @@
+/* THIS WEBSITE PROJECT IS NOT FULLY RESPONSIVE BEACUSE I DONT'T ADD MEDIA QUERIES IN THIS BUT IN FUTURE I WILL MAKE IT FULLY RESPONSIVE - THANKIEWWW ALL :) */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background: url('backggroundd.png');
+    height: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center;  
+}
+
+  
+.container{
+    width: 430px;
+    height: 550px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    backdrop-filter: blur(30px) saturate(180%);
+    position: absolute;
+    top: 90px;
+    left: 210px;
+}
+
+.head{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 2.1rem;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-size: 0.9rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 200;
+}
+
+.login{
+    color: green;
+    cursor: pointer;
+}
+
+.signup{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.signup span{
+    display: flex;
+    font-family: Helvetica, sans-serif;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+input{
+    width: 80%;
+    border: none;
+    color: white;
+    background-color: black;
+    background: transparent;
+    outline: none;
+    border-bottom: 3px solid rgb(255, 255, 255);
+    border-radius: 2px;
+}
+
+
+button{
+    display: block;
+    background-color: aquamarine;
+    position: absolute;
+    top: 65%;
+    left: 27%;
+    font-size: 0.9rem;
+    padding: 4px 80px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.button button:hover{
+   cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(158, 218, 198);
+
+}
+
+
+.anotheracc{
+   display: flex;
+   color: white;
+   font-weight: bold;
+   margin-top: 90px;
+   justify-content: center;
+ }
+  
+ .anotheracc a{
+     color: white;
+     text-decoration: none;
+     font-family: sans-serif;
+     font-weight: 100;
+ }
+
+ .anotheracc:before{
+     position: absolute;
+     content: '';
+     width: 28%;
+     height: 2px;
+     background: white;
+     left: 8%;
+     top: 77.7%;
+     border-radius: 50px;
+
+ }
+
+ .anotheracc:after{
+     position: absolute;
+     content: '';
+     width: 28%;
+     height: 2px;
+     background: white;
+     right: 8%;
+     top: 77.7%;
+     border-radius: 50px;
+ }
+
+ .icons{
+     display: flex;
+     justify-content: center;
+ }
+ .apple{
+     width: 30px;
+     border-radius: 7px;
+     margin: 15px 7px;
+     padding: auto;
+ }
+
+ .goggle{
+     width: 30px;
+     border-radius: 6px;
+     margin: 15px 7px;
+ }
+
